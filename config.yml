@@ -84,7 +84,7 @@ homebrew_cask_apps:
   - pycharm
   - datagrip
   - rider
-  - brave
+  - brave-browser
   - rectangle
   - spotify
   - vlc
