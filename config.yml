@@ -33,6 +33,9 @@ dockitems_persist:
   - name: "Ghostty"
     path: "~/Applications/Ghostty.app"
     pos: 2
+  - name: "Brave"
+    path: "~/Applications/Brave.app"
+    pos: 3
 
 dotfiles_repo: https://github.com/nqui/dotfiles.git
 dotfiles_repo_accept_hostkey: true
@@ -52,7 +55,6 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - git
   - httpie
-  - iperf
   - ssh-copy-id
   - openssl
   - wget
@@ -61,26 +63,28 @@ homebrew_installed_packages:
   - nano
   - nanorc
   - zsh
-  - powerlevel10k
+  - starship
   - go
   - tree
   - jq
   - mise
 
 homebrew_cask_apps:
-  - docker
+  - orbstack
   - 1password
   - discord
   - goland
+  - webstorm
   - pycharm
   - datagrip
   - rider
   - adguard
   - brave
   - rectangle
-  - flux
   - spotify
   - vlc
   - balenaetcher
   - keka
   - protonvpn
+  - hey-desktop
+  - proton-mail
