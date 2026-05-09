@@ -70,9 +70,12 @@ homebrew_installed_packages:
   - jq
   - mise
 
+# Match the HOMEBREW_CASK_OPTS appdir set in .zshrc so playbook installs
+# end up in the same place as manual `brew install --cask` runs.
+homebrew_cask_appdir: "{{ ansible_env.HOME }}/Applications"
+
 # Casks requiring installation to /Applications (system extensions, security
-# tooling) are installed by post-install.sh, since HOMEBREW_CASK_OPTS in .zshrc
-# routes casks to $HOME/Applications by default.
+# tooling) are installed by post-install.sh with an explicit --appdir override.
 homebrew_cask_apps:
   - orbstack
   - discord
