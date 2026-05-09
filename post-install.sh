@@ -13,3 +13,5 @@ brew install --cask --appdir=/Applications \
   adguard \
   lulu \
   oversight
+
+starship preset gruvbox-rainbow -o ~/.config/starship.toml
