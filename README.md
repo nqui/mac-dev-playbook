@@ -11,8 +11,6 @@ Before running any of the installation steps
 
   1. `mkdir -p ~/.config/pip`
   2. `mkdir -p ~/Library/Application\ Support/Rectangle`
-  3. Install [oh-my-zsh](https://ohmyz.sh/)
-  4. (optional) Install [MonitorControl](https://github.com/MonitorControl/MonitorControl/releases)
 
 Post install steps
 
