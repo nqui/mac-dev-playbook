@@ -39,7 +39,7 @@ dockitems_persist:
 
 dotfiles_repo: https://github.com/nqui/dotfiles.git
 dotfiles_repo_accept_hostkey: true
-dotfiles_repo_local_destination: ~/.config/dotfiles
+dotfiles_repo_local_destination: ~/code/dotfiles
 dotfiles_files:
   - .zshrc
   - .gitignore
@@ -49,6 +49,7 @@ dotfiles_files:
   - .nanorc
   - .gitconfig
   - .config/iterm2/iterm-profiles.json
+  - .config/ghostty/config
   - "Library/Application Support/Rectangle/RectangleConfig.json"
 
 homebrew_installed_packages:
@@ -89,6 +90,7 @@ homebrew_cask_apps:
   - hey-desktop
   - proton-mail
   - monitorcontrol
+  - font-fira-code-nerd-font
 
 mas_installed_apps:
   - { id: 470158793, name: "Keka" }
