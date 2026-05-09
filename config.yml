@@ -94,6 +94,8 @@ homebrew_cask_apps:
   - proton-mail
   - monitorcontrol
   - font-fira-code-nerd-font
+  - claude
+  - claude-code
 
 mas_installed_apps:
   - { id: 470158793, name: "Keka" }
