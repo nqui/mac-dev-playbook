@@ -3,8 +3,12 @@ set -euo pipefail
 
 killall Dock
 
-mise plugin add dotnet
 mise plugin add uv
+
+mise use --global node@latest
+mise use --global python@latest
+mise use --global go@latest
+mise use --global dotnet@latest
 
 # These casks ship system extensions or otherwise require /Applications.
 # Override the user's HOMEBREW_CASK_OPTS (which targets $HOME/Applications).
