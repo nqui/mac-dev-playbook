@@ -59,6 +59,7 @@ dotfiles_files:
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - git
+  - gpg
   - httpie
   - ssh-copy-id
   - openssl
