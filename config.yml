@@ -98,8 +98,3 @@ homebrew_cask_apps:
   - font-fira-code-nerd-font
   - claude
   - claude-code
-
-mas_installed_apps:
-  - { id: 470158793, name: "Keka" }
-  - { id: 1451685025, name: "WireGuard" }
-  - { id: 1284863847, name: "Unsplash Wallpapers" }
