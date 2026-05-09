@@ -15,3 +15,11 @@ brew install --cask --appdir=/Applications \
   oversight
 
 starship preset gruvbox-rainbow -o ~/.config/starship.toml
+
+cat <<'EOF'
+
+Manual App Store installs (mas automation is unreliable on modern macOS):
+  - Keka
+  - WireGuard
+  - Unsplash Wallpapers
+EOF
