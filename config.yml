@@ -31,20 +31,8 @@ dockitems_persist:
     path: "/Applications/System Settings.app"
     pos: 1
   - name: "Ghostty"
-    path: "/Applications/Ghostty.app"
+    path: "~/Applications/Ghostty.app"
     pos: 2
-  - name: "GoLand"
-    path: "/Applications/GoLand.app"
-    pos: 3
-  - name: "Rider"
-    path: "/Applications/Rider.app"
-    pos: 4
-  - name: "Brave"
-    path: "/Applications/Brave.app"
-    pos: 5
-  - name: "System Settings"
-    path: "/Applications/System Settings.app"
-    pos: 6
 
 dotfiles_repo: https://github.com/nqui/dotfiles.git
 dotfiles_repo_accept_hostkey: true
