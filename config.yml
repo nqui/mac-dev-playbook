@@ -69,25 +69,28 @@ homebrew_installed_packages:
   - jq
   - mise
 
+# Casks requiring installation to /Applications (system extensions, security
+# tooling) are installed by post-install.sh, since HOMEBREW_CASK_OPTS in .zshrc
+# routes casks to $HOME/Applications by default.
 homebrew_cask_apps:
   - orbstack
-  - 1password
   - discord
   - goland
   - webstorm
   - pycharm
   - datagrip
   - rider
-  - adguard
   - brave
   - rectangle
   - spotify
   - vlc
   - balenaetcher
-  - keka
   - protonvpn
   - hey-desktop
   - proton-mail
   - monitorcontrol
-  - lulu
-  - oversight
+
+mas_installed_apps:
+  - { id: 470158793, name: "Keka" }
+  - { id: 1451685025, name: "WireGuard" }
+  - { id: 1284863847, name: "Unsplash Wallpapers" }

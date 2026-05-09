@@ -7,18 +7,17 @@
 This playbook installs and configures most of the software I use on my Mac for web and software development. Some things in macOS are slightly difficult to automate, so I still have a few manual installation steps, but at least it's all documented here.
 
 ## Custom instruction additions
-Before running any of the installation steps
+Before running any of the installation steps, run the pre-install script to create required config directories:
 
-  1. `mkdir -p ~/.config/pip`
-  2. `mkdir -p ~/Library/Application\ Support/Rectangle`
+```
+./pre-install.sh
+```
 
-Post install steps
+After running the playbook, run the post-install script to reload the Dock and install mise plugins:
 
-  1. Kill dock process for dock configs to kick in `killall Dock`
-  2. Install mise plugins:
-      ```
-      mise plugin add dotnet
-      ```
+```
+./post-install.sh
+```
 
 ## Installation
 

@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+killall Dock
+
+mise plugin add dotnet
+mise plugin add uv
+
+# These casks ship system extensions or otherwise require /Applications.
+# Override the user's HOMEBREW_CASK_OPTS (which targets $HOME/Applications).
+brew install --cask --appdir=/Applications \
+  1password \
+  adguard \
+  lulu \
+  oversight
