@@ -99,3 +99,4 @@ homebrew_cask_apps:
   - font-fira-code-nerd-font
   - claude
   - claude-code
+  - ghostty
