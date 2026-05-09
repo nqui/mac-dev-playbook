@@ -27,6 +27,8 @@ dockitems_remove:
   - Pages
   - Games
   - "iPhone Mirroring"
+  - Phone
+  - Apps
 
 dockitems_persist:
   - name: "System Settings"
