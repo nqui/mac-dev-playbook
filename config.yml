@@ -69,7 +69,6 @@ homebrew_installed_packages:
   - nanorc
   - zsh
   - starship
-  - go
   - tree
   - jq
   - mise
