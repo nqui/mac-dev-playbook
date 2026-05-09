@@ -25,6 +25,8 @@ dockitems_remove:
   - Keynote
   - Numbers
   - Pages
+  - Games
+  - "iPhone Mirroring"
 
 dockitems_persist:
   - name: "System Settings"
