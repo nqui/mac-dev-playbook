@@ -35,10 +35,10 @@ dockitems_persist:
     path: "/Applications/System Settings.app"
     pos: 1
   - name: "Ghostty"
-    path: "~/Applications/Ghostty.app"
+    path: "{{ ansible_env.HOME }}/Applications/Ghostty.app"
     pos: 2
-  - name: "Brave"
-    path: "~/Applications/Brave.app"
+  - name: "Brave Browser"
+    path: "{{ ansible_env.HOME }}/Applications/Brave Browser.app"
     pos: 3
 
 dotfiles_repo: https://github.com/nqui/dotfiles.git
