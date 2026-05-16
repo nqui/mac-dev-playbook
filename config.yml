@@ -55,6 +55,7 @@ dotfiles_files:
   - .config/iterm2/iterm-profiles.json
   - .config/ghostty/config
   - "Library/Application Support/Rectangle/RectangleConfig.json"
+  - .npmrc
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
