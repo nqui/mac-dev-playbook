@@ -102,3 +102,4 @@ homebrew_cask_apps:
   - claude
   - claude-code
   - ghostty
+  - visual-studio-code
