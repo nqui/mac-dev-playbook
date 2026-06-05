@@ -103,3 +103,4 @@ homebrew_cask_apps:
   - claude-code
   - ghostty
   - visual-studio-code
+  - docker-desktop
